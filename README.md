@@ -46,7 +46,7 @@ After learning the fundamentals of Golang, I returned to focus on the task, I re
 # Creating the Dockerfile and DockerCompose
 Now it was time to create the Dockerfile, but first I followed the instructions to check if the http response code returned a `200` message when I ran `go run main.go` in the VSCode terminal. 
 NOTE: I made sure I downloaded the `Go` and `Docker` extensions on VSCode to ensure everything ran smoothly. 
-After the commands were inputted into the `Dockerfile` and the `DockerCompose.yaml` file, I returned to the VSCode terminal to build the Docker image using:
+After the commands were inputted into the `Dockerfile`, I returned to the VSCode terminal to build the Docker image using:
 
  `docker build -t moj-app . `
 
@@ -60,7 +60,9 @@ This shows the image along with it's image number, name, and when it was created
 
 The ` -d ` allows the container to run in detached mode, and the ` -p `sets the port number to `8080`.
 
-To check if the container is now running at port `8080`, I typed in `localhost:8080` in my web browser, and SUCCESS! Days of learning came into fruition and it was running.
+To check if the container is now running at port `8080`, I typed in `localhost:8080` in my web browser, and SUCCESS! Days of learning came into fruition and it was running. 
+
+` {"code":200,"message":"Home"} `
 
 I then closed and removed the containers using:
 

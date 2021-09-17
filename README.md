@@ -96,8 +96,8 @@ Due to the large size of the image created in the steps before, a multi-stage Do
 
 There are two features that I want to implement to further my learning:
 
-`CI/CD` - Using GitHub actions to automate monotonous tasks and to remove errors. CI/CD was recently implemented in MOJ D&T and has reduced the update wait time from 2 weeks to immediate access.
-`Kubernetes` - Containerising the Golang app and deploying into a kubernetes cluster to improve scalability of the app when there are many users involved.
+- `CI/CD` - Using GitHub actions to automate monotonous tasks and to remove errors. CI/CD was recently implemented in MOJ D&T and has reduced the update wait time from 2 weeks to immediate access.
+- `Kubernetes` - Containerising the Golang app and deploying into a kubernetes cluster to improve scalability of the app when there are many users involved.
 
 # What went well
 

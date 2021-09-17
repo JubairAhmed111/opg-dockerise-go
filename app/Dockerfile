@@ -14,8 +14,10 @@ RUN CGO_ENABLED=0 go build -o main ./...
 # This builds the app to the container location
 
 FROM alpine:latest AS production
+# This is the production stage of the app, as you will see it is much lighter than the build stage
 
 COPY --from=builder /app . 
+# The necessities to keep the app running are copied
 
 CMD ["./main"]
 # This the command that will run

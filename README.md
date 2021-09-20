@@ -43,7 +43,7 @@ These questions were answered very quickly by one person, my mentor Sam Joseph, 
 
 After learning the fundamentals of Golang, I returned to focus on the task, I refreshed myself on how to use Docker, making sure that I had the latest version of both Golang and Docker installed.
 
-# Creating the Dockerfile and DockerCompose
+# Creating the Dockerfile
 Now it was time to create the Dockerfile, but first I followed the instructions to check if the http response code returned a `200` message when I ran `go run main.go` in the VSCode terminal. 
 NOTE: I made sure I downloaded the `Go` and `Docker` extensions on VSCode to ensure everything ran smoothly. 
 After the commands were inputted into the `Dockerfile`, I returned to the VSCode terminal to build the Docker image using:
